@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Coming Soon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <meta name="description" content="Our blog is currently under construction. We're working on something amazing!">
+</head>
+<body>
+  <div class="container">
+    <main class="content">
+      <h1>Work in progress</h1>
+      <div class="emoji-container">
+        <span class="emoji">✍️</span>
+        <span class="emoji">🚀</span>
+        <span class="emoji">💡</span>
+      </div>
+      <p>Our blog is under construction. We're working on something amazing!</p>
+    </main>
+    <footer>
+      <p>© <span id="year"></span> • Coming soon</p>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
